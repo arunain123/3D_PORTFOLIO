@@ -453,6 +453,8 @@ svg{
   color: var(--color-pink);
 }
 
+
+
 .styleOne,
 .styleTwo,
 .styleThree{
@@ -681,6 +683,7 @@ svg{
     text-shadow: -5px 0 $redColor, 5px -4px $blueColor;
   }
 }
+
 /* Media Queries */
 
 @media (max-width: 968px){
