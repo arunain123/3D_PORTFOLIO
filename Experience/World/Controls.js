@@ -94,7 +94,7 @@ export default class Controls {
                 this.room.scale.set(0.11, 0.11, 0.11);
                 this.rectLight.width = 0.5;
                 this.rectLight.height = 0.7;
-                this.camera.orthographicCamera.position.set(0, 6.5, 10);
+                this.camera.orthographicCamera.position.set(0, 6.5,10);
                 this.room.position.set(0, 0, 0);
                 // First section -----------------------------------------
                 this.firstMoveTimeline = new GSAP.timeline({
@@ -102,7 +102,7 @@ export default class Controls {
                         trigger: ".first-move",
                         start: "top top",
                         end: "bottom bottom",
-                        scrub: 0.6,
+                        scrub: 12,
                         // markers: true,
                         invalidateOnRefresh: true,
                     },
@@ -112,7 +112,7 @@ export default class Controls {
                     { x: 0, y: 0, z: 0 },
                     {
                         x: () => {
-                            return this.sizes.width * 0.0014;
+                            return this.sizes.width * 0.0016;
                         },
                     }
                 );
