@@ -56,7 +56,7 @@ export default class Room {
             }
 
             if (child.name === "Mini_Floor") {
-                child.children[0].material.color.set(0x434242);
+                child.children[0].material.color.set(0x678983);
                 child.position.x = -0.289521;
                 child.position.z = 8.83572;
             }

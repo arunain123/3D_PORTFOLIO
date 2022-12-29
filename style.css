@@ -27,7 +27,7 @@ svg{
   /* Light Theme Variables */
   --color-text-light: #333332;
   --color-background-light: #FAF4E5;
-  --color-pink-light: #e5a1aa;
+  --color-pink-light: #678983;
   --color-green-light: #7AD0AC;
   --color-blue-light: #8395CD;
 
@@ -206,7 +206,7 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-pink);
+  background-color: #F0E9D2;
   border-radius: 999px;
   margin: 0px 16px;
   border: none;
@@ -294,27 +294,35 @@ svg{
 
 .stage{
   height: 155px;
-  width: 90px;
+  width: 100px;
   padding-top: 20px;
   padding-left: 20px;
 }
+
 .p{
   font-size: 20px;
   text-align: center;
   height: 100%;
   cursor: pointer;
-  background: #e8a4ac;
+  background: #F0E9D2;
   border-radius: 10px;
   letter-spacing: 5px;
 }
 .div{
 
   border-radius: 10px;
-  width: 150px;
+  width: 165px;
   height: 32px;
   margin-top: 4%;
  transition-duration: 0.2s;
 
+}
+.nav{
+  text-decoration: none;
+  color: #333332;
+}
+.nav:visited{
+  color: #333332;
 }
 .p:hover{
   background: white;
@@ -500,30 +508,30 @@ svg{
   position: absolute;
   bottom: 300px;
   left: 0;
-  color: var(--color-text);
+  color: #F0E9D2;
 }
 
 .hero-second{
   position: absolute;
   top: 10px;
-  right: 0%;
-  color: var(--color-text);
+  right: -9%;
+  color: #F0E9D2;
 }
 
 .hero-main-title{
   font-size: 64px;
-  color: var(--color-text);
+  color: #678983;
 }
 
 .hero-main-description{
   font-size: 18px;
-  color: var(--color-text);
+  color: #F0E9D2;
 }
 
 .hero-second-subheading{
   font-size: 32px;
   text-transform: uppercase;
-  color: var(--color-text);
+  color: #F0E9D2;
 }
 
 
